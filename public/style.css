@@ -1,0 +1,221 @@
+body {
+color:black;
+background-color:white;
+background-attachment:fixed;
+background-image:url(voiture.jpg);
+background-position:center center;
+background-repeat:no-repeat;
+background-size: 400px 300px;
+}
+
+h1{
+	color:#607D8B;
+	font: normal normal bold 16px/normal Arial, Helvetica, sans-serif;
+	background-color: #ece2e2;
+    background-size: 400px 800px;
+    text-align:center;
+
+}
+
+element.style {
+	color:grey;
+}
+
+input[type=text]{
+	padding: 5px 10px;
+  	border: 1px solid #b7b7b7;
+  -webkit-border-radius: 3px;
+  	border-radius: 3px;
+  	font: normal normal bold 16px/normal Arial, Helvetica, sans-serif;
+  color: #607D8B;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: rgba(237,237,237,1);
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.66) ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+input[type=number][placeholder="Price by day"]{
+	padding: 5px 10px;
+  	border: 1px solid #b7b7b7;
+  -webkit-border-radius: 3px;
+  	border-radius: 3px;
+  	font: normal normal bold 16px/normal Arial, Helvetica, sans-serif;
+  color: #607D8B;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #d6bada;
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.66) ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+
+
+}
+
+input[type=number][placeholder="Price by km"]{
+	padding: 5px 10px;
+  	border: 1px solid #b7b7b7;
+  -webkit-border-radius: 3px;
+  	border-radius: 3px;
+  	font: normal normal bold 16px/normal Arial, Helvetica, sans-serif;
+  color: #607D8B;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #d6bada;
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.66) ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  position: relative;
+  left:238px;
+  top:10px;
+}
+
+input[placeholder="Rental begin date"]{
+	padding: 5px 10px;
+	position: relative;
+  	
+  	top:30px;
+  	border: 1px solid #b7b7b7;
+  -webkit-border-radius: 3px;
+  	border-radius: 3px;
+  	font: normal normal bold 16px/normal Arial, Helvetica, sans-serif;
+  color: #607D8B;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: rgb(196, 206, 193);
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.66) ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+
+}
+
+input[placeholder="Rental end date"]{
+	padding: 5px 10px;
+	position: relative;
+  	
+  	top:30px;
+  	border: 1px solid #b7b7b7;
+  -webkit-border-radius: 3px;
+  	border-radius: 3px;
+  	font: normal normal bold 16px/normal Arial, Helvetica, sans-serif;
+  color: #607D8B;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: rgb(196, 206, 193);
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.66) ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+
+}
+
+input[placeholder="Deductible option"]{
+	padding: 5px 10px;
+  	border: 1px solid #b7b7b7;
+  -webkit-border-radius: 3px;
+  	border-radius: 3px;
+  	font: normal normal bold 16px/normal Arial, Helvetica, sans-serif;
+  color: #607D8B;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: rgb(255, 255, 255);
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.66) ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+	position: relative;
+  	
+  	top:30px;
+}
+
+input[placeholder="Distance in km"]{
+	padding: 5px 10px;
+  	border: 1px solid #b7b7b7;
+  -webkit-border-radius: 3px;
+  	border-radius: 3px;
+  	font: normal normal bold 16px/normal Arial, Helvetica, sans-serif;
+  color: #607D8B;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: rgba(237,237,237,1);
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.66) ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+position: relative;
+  	
+  	top:30px;
+}
+
+img {
+	max-width: 40%;
+	height: auto;
+	position: relative;
+	top: 50px;
+  	left: 500px;
+}
+
+button {
+  background: #e5e7e8;
+  background-image: -webkit-linear-gradient(top, #e5e7e8, #8e979c);
+  background-image: -moz-linear-gradient(top, #e5e7e8, #8e979c);
+  background-image: -ms-linear-gradient(top, #e5e7e8, #8e979c);
+  background-image: -o-linear-gradient(top, #e5e7e8, #8e979c);
+  background-image: linear-gradient(to bottom, #e5e7e8, #8e979c);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 0px 1px 3px #2e122e;
+  -webkit-box-shadow: 4px 4px 4px #666666;
+  -moz-box-shadow: 4px 4px 4px #666666;
+  box-shadow: 4px 4px 4px #666666;
+  font-family: Arial;
+  color: #590659;
+  font-size: 13px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: relative;
+  top: 50px;
+  left: 200px;
+  
+}
+
+button:hover {
+  background: #dfe6eb;
+  background-image: -webkit-linear-gradient(top, #dfe6eb, #8e9294);
+  background-image: -moz-linear-gradient(top, #dfe6eb, #8e9294);
+  background-image: -ms-linear-gradient(top, #dfe6eb, #8e9294);
+  background-image: -o-linear-gradient(top, #dfe6eb, #8e9294);
+  background-image: linear-gradient(to bottom, #dfe6eb, #8e9294);
+  text-decoration: none;
+}
+
+
+
+
